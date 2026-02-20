@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+/* 
+@theme {
+  --color-bg: white;
+}
+
+@variant dark {
+  :root {
+    --color-bg: #0B0F19;
+  }
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+/* 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+ 
+  overflow-x: hidden;
+  
+  
+} */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  z-index: -1;
+  filter: blur(120px);
+  opacity: 0.6;
+  animation: moveBg 15s ease-in-out infinite alternate;
+}
+
+/* LIGHT MODE */
+html:not(.dark) body::before {
+  background: radial-gradient(circle at 30% 40%, #60a5fa, transparent 40%),
+              radial-gradient(circle at 70% 60%, #f472b6, transparent 40%);
+}
+
+/* DARK MODE */
+html.dark body::before {
+  background: radial-gradient(circle at 30% 40%, #1e3a8a, transparent 40%),
+              radial-gradient(circle at 70% 60%, #9333ea, transparent 40%);
+}
+
+
+/* Animated background gradient */
+body::before {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  background: radial-gradient(circle at 30% 40%, #1e3a8a, transparent 40%),
+              radial-gradient(circle at 70% 60%, #9333ea, transparent 40%);
+  animation: moveBg 15s ease-in-out infinite alternate;
+  z-index: -1;
+  filter: blur(120px);
+  opacity: 0.6;
+}
+
+@keyframes moveBg {
+  0% { transform: translate(0px, 0px); }
+  100% { transform: translate(100px, -80px); }
+  
+}

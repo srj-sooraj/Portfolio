@@ -1,0 +1,113 @@
+
+Full Name: srj
+Role: MERN Stack Developer
+Location: Pta, Kerala, India
+Email: srj@gmail.com
+Phone: 97445433555
+
+PROFESSIONAL SUMMARY:
+MERN Stack Developer with hands-on experience building responsive, scalable, and efficient full-stack web applications. Skilled in developing RESTful APIs, building dynamic user interfaces using React.js, and managing databases with MongoDB. Strong understanding of JavaScript (ES6+), authentication systems (JWT, OAuth), and version control using Git. Passionate about clean code, performance optimization, and problem-solving. Seeking to contribute to collaborative and agile development environments.
+
+EXPERIENCE:
+
+1) MERN Stack Developer Intern
+Company: Synnefo Solutions
+Location: Kochi
+Duration: June 2025 – Present
+Responsibilities:
+- Built full-stack applications using MongoDB, Express.js, React.js, and Node.js.
+- Developed and tested RESTful APIs.
+- Integrated frontend with backend systems.
+- Designed responsive UI using React and Tailwind CSS.
+- Managed database operations and implemented CRUD functionality.
+
+2) Web Development Intern
+Company: Wogle Tech
+Location: Bangalore
+Duration: December 2024 – February 2025
+Responsibilities:
+- Built interactive web applications using HTML, CSS, and JavaScript.
+- Implemented responsive layouts.
+- Debugged and improved frontend performance.
+
+TECHNICAL SKILLS:
+
+Languages:
+HTML, CSS, JavaScript (ES6+), TypeScript, SQL, JSON
+
+Frontend:
+React.js, Angular, Redux Toolkit, Context API, React Hooks, Tailwind CSS, Bootstrap, Material UI
+
+Backend:
+Node.js, Express.js, MVC Architecture, RESTful APIs, API Integration, JWT Authentication, Bcrypt, OAuth 2.0, Multer, NPM
+
+Database:
+MongoDB, SQL
+
+Tools:
+Git, GitHub, Debugging, Testing
+
+PROJECTS:
+
+1) Daily Routine Manager
+Tech Stack: MongoDB, Express.js, React.js, Node.js, CSS
+- Built a full-stack MERN application.
+- Designed REST APIs for frontend-backend communication.
+- Implemented authentication.
+- Structured MongoDB schemas.
+GitHub: https://github.com/sr/Daily-Routine-Manager
+
+2) Connecta Social Media Express
+Tech Stack: Express.js, MongoDB, Node.js, CSS
+- Developed REST APIs for user authentication, post creation, and profile management.
+- Implemented secure JWT authentication.
+- Created MongoDB schemas using Mongoose.
+- Implemented CRUD operations.
+GitHub: https://github.com/sr/Connecta-SocialMedia-Express
+
+3) Student Mark Report
+Tech Stack: Express.js, Node.js, MongoDB, HTML, CSS
+- Built APIs for student registration and mark management.
+- Implemented CRUD operations.
+- Designed MongoDB schema for storing academic records.
+GitHub: https://github.com/sr/STUDENT-MARK-REPORT_EXPRESS
+
+EDUCATION:
+
+Bachelor of Computer Application (BCA)
+Musaliar College, Pta
+Completed: 2025
+
+MERN Stack Development Course
+Synnefo Solutions, Kochi
+Completed: 2026
+
+
+
+<ProjectCard
+            number="01"
+            title="E-Commerce Platform"
+            description="A full-stack MERN marketplace with secure authentication, real-time inventory management, payment integration and admin analytics dashboard."
+            tech={["React", "Node.js", "MongoDB", "JWT"]}
+          />
+
+          <ProjectCard
+            number="02"
+            title="Daily Routine Manager"
+            description="Task management application with authentication, CRUD operations and responsive design built for performance and usability."
+            tech={["React", "Express", "MongoDB"]}
+          />
+
+          <ProjectCard
+            number="03"
+            title="Connecta Social API"
+            description="RESTful backend API implementing JWT authentication, scalable architecture and structured database design."
+            tech={["Node.js", "Express", "MongoDB"]}
+          />
+
+          <ProjectCard
+            number="04"
+            title="SaaS Dashboard UI"
+            description="Modern analytics dashboard featuring dynamic UI components and data visualization with performance optimization."
+            tech={["React", "Tailwind", "Charts"]}
+          />
