@@ -41,24 +41,26 @@ function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
 
-        
-       <Antigravity
-        count={500}
-        magnetRadius={6}
-        ringRadius={7}
-        waveSpeed={0.4}
-        waveAmplitude={0.6}
-        particleSize={1.5}
-        lerpSpeed={0.05}
-        color="#8929ff"
-        autoAnimate
-        particleVariance={1}
-        rotationSpeed={0}
-        depthFactor={1}
-        pulseSpeed={1}
-        particleShape="capsule"
-        fieldStrength={10}
-      />
+      
+  <div className="absolute inset-0 hidden md:block">
+    <Antigravity 
+    count={500}
+    magnetRadius={6}
+    ringRadius={7}
+    waveSpeed={0.4}
+    waveAmplitude={0.6}
+    particleSize={1.5}
+    lerpSpeed={0.05}
+    color="#8929ff"
+    autoAnimate
+    particleVariance={1}
+    rotationSpeed={0}
+    depthFactor={1}
+    pulseSpeed={1}
+    particleShape="capsule"
+    fieldStrength={10}
+  />
+</div>
 
       {/* Glow Shapes */}
       <div className="absolute w-[400px] h-[400px] bg-pink-500 rounded-full blur-[120px] opacity-20 top-10 left-10 animate-pulse"></div>
