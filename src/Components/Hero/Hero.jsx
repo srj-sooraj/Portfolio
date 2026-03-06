@@ -108,9 +108,12 @@ function Hero() {
             View Projects
           </a>
 
-          <button className="px-6 py-3 rounded-full border border-white/20 hover:bg-white/5 transition">
+         <a
+            href="#contact"
+            className="px-6 py-3 rounded-full border border-white/20 hover:bg-white/5 transition inline-block"
+          >
             Contact Me
-          </button>
+          </a>
         </div>
 
         <div className="mt-12 text-gray-500 text-sm animate-bounce">
